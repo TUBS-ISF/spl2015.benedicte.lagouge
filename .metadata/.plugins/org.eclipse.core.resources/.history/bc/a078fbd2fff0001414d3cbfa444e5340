@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<and abstract="true" mandatory="true" name="Platform Game">
+				<alt name="Hardware / OS">
+					<description>
+						The Hardware/OS for which the game will be created .
+					</description>
+					<feature mandatory="true" name="Mac"/>
+					<feature mandatory="true" name="PS4"/>
+					<feature mandatory="true" name="Windows"/>
+					<feature mandatory="true" name="Android"/>
+					<feature mandatory="true" name="Linux"/>
+				</alt>
+				<feature name="System of Highscore">
+					<description>
+						Used for showing his score to the player, and 
+						compare his score to the score of others
+					</description>
+				</feature>
+				<and mandatory="true" name="Graphics">
+					<description>
+						Graphics items for the game .
+					</description>
+					<feature mandatory="true" name="Tiles">
+						<description>
+							Graphics for defining the appearance of entities
+							(players, objects, enemies, ...)
+						</description>
+					</feature>
+					<feature mandatory="true" name="Backgrounds">
+						<description>
+							Fixed images in the background of the game .
+						</description>
+					</feature>
+				</and>
+				<or name="System of Saving">
+					<description>
+						Save the progression of the player in  the game .
+					</description>
+					<or mandatory="true" name="Auto Save">
+						<description>
+							save at some points of the game .
+						</description>
+						<feature mandatory="true" name="autosave each X minutes">
+							<description>
+								decide to save the progression in the game each 
+								"decided amount of time" .
+							</description>
+						</feature>
+						<feature mandatory="true" name="autosave after each ''level''">
+							<description>
+								Save after each time an important thing in the 
+								game is done (like finishing a level or whatever)
+							</description>
+						</feature>
+					</or>
+					<feature mandatory="true" name="Manual Save">
+						<description>
+							Let the player decide when he wants to save .
+						</description>
+					</feature>
+				</or>
+				<or name="Number of Players">
+					<description>
+						How many players can play this game ?
+					</description>
+					<feature mandatory="true" name="Solo">
+						<description>
+							One player can play this game alone .
+						</description>
+					</feature>
+					<feature mandatory="true" name="Multi">
+						<description>
+							The game can be played by several players at the 
+							same time .
+						</description>
+					</feature>
+				</or>
+				<feature name="Life Bar">
+					<description>
+						Create a system of lifebar : the points of life of 
+						the player decrease each time he touches something
+						bad .
+					</description>
+				</feature>
+				<alt mandatory="true" name="Dimension">
+					<description>
+						Will be the the game in 2D or 3D ?
+					</description>
+					<feature mandatory="true" name="2D"/>
+					<feature mandatory="true" name="3D"/>
+				</alt>
+				<or mandatory="true" name="Sound">
+					<description>
+						What kind of sound are we going to use ?
+					</description>
+					<feature mandatory="true" name="Music"/>
+					<feature mandatory="true" name="Midi Format"/>
+				</or>
+			</and>
+		</struct>
+		<constraints/>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>

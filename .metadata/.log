@@ -1,0 +1,500 @@
+!SESSION 2015-04-30 15:06:43.525 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2015-04-30 15:07:20.100
+!MESSAGE No search provider was registed. Tasks search is not available.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-30 15:08:44.675
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.eclipse.org/jdt/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-30 15:08:44.677
+!MESSAGE No repository found at http://www.eclipse.org/jdt/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-30 15:08:53.434
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.macraigor.com.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-30 15:08:53.434
+!MESSAGE No repository found at http://www.macraigor.com.
+
+!ENTRY org.eclipse.ui 2 2 2015-04-30 15:13:32.687
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+!SESSION 2015-04-30 15:13:34.892 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2015-04-30 15:13:45.262
+!MESSAGE No search provider was registed. Tasks search is not available.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-30 15:13:58.671
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.eclipse.org/jdt/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-30 15:13:58.673
+!MESSAGE No repository found at http://www.eclipse.org/jdt/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-30 15:14:06.656
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.macraigor.com.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-30 15:14:06.656
+!MESSAGE No repository found at http://www.macraigor.com.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-30 15:14:19.418
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.eclipse.org/jdt/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-30 15:14:19.419
+!MESSAGE No repository found at http://www.eclipse.org/jdt/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-30 15:14:19.420
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.macraigor.com.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-30 15:14:19.420
+!MESSAGE No repository found at http://www.macraigor.com.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-04-30 15:17:38.305
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:17:38.305
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:17:38.305
+!MESSAGE Software being installed: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:17:38.305
+!MESSAGE Missing requirement: org.deltaj 2.7.2.201410201709 (org.deltaj 2.7.2.201410201709) requires 'bundle it.xtypes 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:17:38.305
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:17:38.305
+!MESSAGE From: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:17:38.305
+!MESSAGE To: org.deltaj [2.7.2.201410201709]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-04-30 15:17:38.313
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:17:38.313
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:17:38.313
+!MESSAGE Software being installed: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:17:38.313
+!MESSAGE Missing requirement: org.deltaj 2.7.2.201410201709 (org.deltaj 2.7.2.201410201709) requires 'bundle it.xtypes 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:17:38.313
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:17:38.313
+!MESSAGE From: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:17:38.313
+!MESSAGE To: org.deltaj [2.7.2.201410201709]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-04-30 15:18:00.401
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:18:00.401
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:18:00.401
+!MESSAGE Software being installed: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:18:00.401
+!MESSAGE Missing requirement: org.deltaj 2.7.2.201410201709 (org.deltaj 2.7.2.201410201709) requires 'bundle it.xtypes 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:18:00.401
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:18:00.401
+!MESSAGE From: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:18:00.401
+!MESSAGE To: org.deltaj [2.7.2.201410201709]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-04-30 15:18:00.406
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:18:00.406
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:18:00.406
+!MESSAGE Software being installed: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:18:00.406
+!MESSAGE Missing requirement: org.deltaj 2.7.2.201410201709 (org.deltaj 2.7.2.201410201709) requires 'bundle it.xtypes 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:18:00.406
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:18:00.406
+!MESSAGE From: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:18:00.406
+!MESSAGE To: org.deltaj [2.7.2.201410201709]
+
+!ENTRY org.eclipse.ui 2 2 2015-04-30 15:25:32.109
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+!SESSION 2015-04-30 15:25:33.913 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2015-04-30 15:25:44.473
+!MESSAGE No search provider was registed. Tasks search is not available.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-30 15:26:41.318
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.eclipse.org/jdt/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-30 15:26:41.319
+!MESSAGE No repository found at http://www.eclipse.org/jdt/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-30 15:26:54.181
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.macraigor.com.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-30 15:26:54.182
+!MESSAGE No repository found at http://www.macraigor.com.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-04-30 15:27:00.179
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:00.179
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:00.179
+!MESSAGE Software being installed: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:00.179
+!MESSAGE Missing requirement: org.deltaj 2.7.2.201410201709 (org.deltaj 2.7.2.201410201709) requires 'package org.eclipse.xtend2.lib 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:00.179
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:00.179
+!MESSAGE From: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:00.179
+!MESSAGE To: org.deltaj [2.7.2.201410201709]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-04-30 15:27:00.187
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:00.187
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:00.187
+!MESSAGE Software being installed: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:00.187
+!MESSAGE Missing requirement: org.deltaj 2.7.2.201410201709 (org.deltaj 2.7.2.201410201709) requires 'package org.eclipse.xtend2.lib 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:00.187
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:00.188
+!MESSAGE From: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:00.188
+!MESSAGE To: org.deltaj [2.7.2.201410201709]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-04-30 15:27:55.687
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:55.687
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE Software being installed: FeatureIDE 2.6.7.201310281609 (de.ovgu.featureide.feature.group 2.6.7.201310281609)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE Software being installed: FeatureIDE 2.7.3.201503041644 (de.ovgu.featureide.feature.group 2.7.3.201503041644)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:55.687
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE FeatureIDE UI Plug-in 2.6.7.201404301538 (de.ovgu.featureide.ui 2.6.7.201404301538)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201108291039 (de.ovgu.featureide.ui 2.6.0.201108291039)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201108191510 (de.ovgu.featureide.ui 2.6.0.201108191510)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201109272214 (de.ovgu.featureide.ui 2.6.0.201109272214)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201111191633 (de.ovgu.featureide.ui 2.6.0.201111191633)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201111221837 (de.ovgu.featureide.ui 2.6.0.201111221837)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201112090811 (de.ovgu.featureide.ui 2.6.0.201112090811)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE FeatureIDE UI Plug-in 2.6.3.201210291019 (de.ovgu.featureide.ui 2.6.3.201210291019)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.687
+!MESSAGE FeatureIDE UI Plug-in 2.6.3.201210091752 (de.ovgu.featureide.ui 2.6.3.201210091752)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.7.201310281609 (de.ovgu.featureide.ui 2.6.7.201310281609)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.2.201207231318 (de.ovgu.featureide.ui 2.6.2.201207231318)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201112051239 (de.ovgu.featureide.ui 2.6.0.201112051239)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-In 2.7.3.201503021756 (de.ovgu.featureide.ui 2.7.3.201503021756)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.3.201210270948 (de.ovgu.featureide.ui 2.6.3.201210270948)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.1.201205081901 (de.ovgu.featureide.ui 2.6.1.201205081901)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-In 2.7.3.201503041644 (de.ovgu.featureide.ui 2.7.3.201503041644)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.1.201203201933 (de.ovgu.featureide.ui 2.6.1.201203201933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.4.201301251807 (de.ovgu.featureide.ui 2.6.4.201301251807)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201110141515 (de.ovgu.featureide.ui 2.6.0.201110141515)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.7.2.201410201709 (de.ovgu.featureide.ui 2.7.2.201410201709)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.7.0.201404301544 (de.ovgu.featureide.ui 2.7.0.201404301544)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.6.201309021928 (de.ovgu.featureide.ui 2.6.6.201309021928)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.3.201210091943 (de.ovgu.featureide.ui 2.6.3.201210091943)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201111281510 (de.ovgu.featureide.ui 2.6.0.201111281510)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.7.1.201407301648 (de.ovgu.featureide.ui 2.7.1.201407301648)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.5.201305292036 (de.ovgu.featureide.ui 2.6.5.201305292036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201108052034 (de.ovgu.featureide.ui 2.6.0.201108052034)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:55.688
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE From: FeatureIDE 2.6.7.201310281609 (de.ovgu.featureide.feature.group 2.6.7.201310281609)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE To: de.ovgu.featureide.ui [2.6.7.201310281609]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:55.688
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE From: FeatureIDE 2.7.3.201503041644 (de.ovgu.featureide.feature.group 2.7.3.201503041644)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.688
+!MESSAGE To: de.ovgu.featureide.ui [2.7.3.201503041644]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-04-30 15:27:55.689
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:55.689
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE Software being installed: FeatureIDE 2.6.7.201310281609 (de.ovgu.featureide.feature.group 2.6.7.201310281609)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE Software being installed: FeatureIDE 2.7.3.201503041644 (de.ovgu.featureide.feature.group 2.7.3.201503041644)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:55.689
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.7.201404301538 (de.ovgu.featureide.ui 2.6.7.201404301538)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201108291039 (de.ovgu.featureide.ui 2.6.0.201108291039)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201108191510 (de.ovgu.featureide.ui 2.6.0.201108191510)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201109272214 (de.ovgu.featureide.ui 2.6.0.201109272214)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201111191633 (de.ovgu.featureide.ui 2.6.0.201111191633)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201111221837 (de.ovgu.featureide.ui 2.6.0.201111221837)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201112090811 (de.ovgu.featureide.ui 2.6.0.201112090811)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.3.201210291019 (de.ovgu.featureide.ui 2.6.3.201210291019)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.3.201210091752 (de.ovgu.featureide.ui 2.6.3.201210091752)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.7.201310281609 (de.ovgu.featureide.ui 2.6.7.201310281609)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.2.201207231318 (de.ovgu.featureide.ui 2.6.2.201207231318)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201112051239 (de.ovgu.featureide.ui 2.6.0.201112051239)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.689
+!MESSAGE FeatureIDE UI Plug-In 2.7.3.201503021756 (de.ovgu.featureide.ui 2.7.3.201503021756)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.6.3.201210270948 (de.ovgu.featureide.ui 2.6.3.201210270948)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.6.1.201205081901 (de.ovgu.featureide.ui 2.6.1.201205081901)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-In 2.7.3.201503041644 (de.ovgu.featureide.ui 2.7.3.201503041644)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.6.1.201203201933 (de.ovgu.featureide.ui 2.6.1.201203201933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.6.4.201301251807 (de.ovgu.featureide.ui 2.6.4.201301251807)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201110141515 (de.ovgu.featureide.ui 2.6.0.201110141515)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.7.2.201410201709 (de.ovgu.featureide.ui 2.7.2.201410201709)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.7.0.201404301544 (de.ovgu.featureide.ui 2.7.0.201404301544)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.6.6.201309021928 (de.ovgu.featureide.ui 2.6.6.201309021928)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.6.3.201210091943 (de.ovgu.featureide.ui 2.6.3.201210091943)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201111281510 (de.ovgu.featureide.ui 2.6.0.201111281510)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.7.1.201407301648 (de.ovgu.featureide.ui 2.7.1.201407301648)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.6.5.201305292036 (de.ovgu.featureide.ui 2.6.5.201305292036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE FeatureIDE UI Plug-in 2.6.0.201108052034 (de.ovgu.featureide.ui 2.6.0.201108052034)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:55.690
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE From: FeatureIDE 2.6.7.201310281609 (de.ovgu.featureide.feature.group 2.6.7.201310281609)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE To: de.ovgu.featureide.ui [2.6.7.201310281609]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:27:55.690
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE From: FeatureIDE 2.7.3.201503041644 (de.ovgu.featureide.feature.group 2.7.3.201503041644)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:27:55.690
+!MESSAGE To: de.ovgu.featureide.ui [2.7.3.201503041644]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-04-30 15:28:14.337
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:28:14.337
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:28:14.338
+!MESSAGE Software being installed: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:28:14.338
+!MESSAGE Missing requirement: org.deltaj 2.7.2.201410201709 (org.deltaj 2.7.2.201410201709) requires 'package org.eclipse.xtend2.lib 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:28:14.338
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:28:14.338
+!MESSAGE From: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:28:14.338
+!MESSAGE To: org.deltaj [2.7.2.201410201709]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-04-30 15:28:14.342
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:28:14.342
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:28:14.342
+!MESSAGE Software being installed: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:28:14.342
+!MESSAGE Missing requirement: org.deltaj 2.7.2.201410201709 (org.deltaj 2.7.2.201410201709) requires 'package org.eclipse.xtend2.lib 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-04-30 15:28:14.342
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:28:14.342
+!MESSAGE From: FeatureIDE extension for DeltaJ (optional) 2.7.2.201410201709 (de.ovgu.featureide.deltaj.feature.group 2.7.2.201410201709)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-04-30 15:28:14.342
+!MESSAGE To: org.deltaj [2.7.2.201410201709]
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-30 15:35:30.178
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.eclipse.org/jdt/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-30 15:35:30.179
+!MESSAGE No repository found at http://www.eclipse.org/jdt/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-30 15:35:31.480
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.macraigor.com.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-30 15:35:31.481
+!MESSAGE No repository found at http://www.macraigor.com.
+!SESSION 2015-04-30 15:36:29.952 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2015-04-30 15:36:39.713
+!MESSAGE No search provider was registed. Tasks search is not available.
+
+!ENTRY org.eclipse.ui.cheatsheets 2 1001 2015-04-30 15:39:41.458
+!MESSAGE Unknown attribute 'id' specified for element 'cheatsheet'.
+!SESSION 2015-05-01 15:12:02.873 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2015-05-01 15:14:00.921
+!MESSAGE No search provider was registed. Tasks search is not available.
+!SESSION 2015-05-02 13:20:52.183 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2015-05-02 14:45:00.138
+!MESSAGE No search provider was registed. Tasks search is not available.
+
+!ENTRY org.eclipse.ui.cheatsheets 2 1001 2015-05-02 21:11:54.034
+!MESSAGE Unknown attribute 'id' specified for element 'cheatsheet'.

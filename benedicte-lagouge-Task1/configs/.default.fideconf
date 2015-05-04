@@ -1,0 +1,26 @@
+# Lists all features from the model with manual (first digit) and automatic (second digit) selection
+# 0 = deselected, 1 = selected, 2 = undefined
+21Platform Game
+21Hardware / OS
+20Mac
+20PS4
+20Windows
+20Android
+12Linux
+22System of Highscore
+21Graphics
+21Tiles
+21Backgrounds
+11System of Saving
+22Auto Save
+22autosave each X minutes
+22autosave after each ''level''
+12Manual Save
+12Multiplayer
+22Life Bar
+21Dimension
+122D
+203D
+21Sound
+12Music
+22Midi Format

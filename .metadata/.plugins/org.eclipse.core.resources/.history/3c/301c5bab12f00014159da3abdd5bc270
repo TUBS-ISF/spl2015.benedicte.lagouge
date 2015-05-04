@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<and abstract="true" mandatory="true" name="Platform Game">
+				<alt name="Hardware / OS">
+					<feature mandatory="true" name="Mac"/>
+					<feature mandatory="true" name="PS4"/>
+					<feature mandatory="true" name="Windows"/>
+					<feature mandatory="true" name="Android"/>
+					<feature mandatory="true" name="Linux"/>
+				</alt>
+				<feature name="System of Highscore"/>
+				<feature mandatory="true" name="Graphics"/>
+				<and name="System of Saving">
+					<feature name="Auto Save"/>
+					<feature name="Manual Save"/>
+				</and>
+				<feature name="Multiplayer"/>
+				<feature name="Life Bar"/>
+				<alt mandatory="true" name="Dimension">
+					<feature mandatory="true" name="2D"/>
+					<feature mandatory="true" name="3D"/>
+				</alt>
+				<and mandatory="true" name="Sound">
+					<feature name="Music"/>
+					<feature name="Midi Format"/>
+				</and>
+			</and>
+		</struct>
+		<constraints/>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>
