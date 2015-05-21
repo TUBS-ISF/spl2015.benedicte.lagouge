@@ -12,10 +12,9 @@
 					<feature mandatory="true" name="Android"/>
 					<feature mandatory="true" name="Linux"/>
 				</alt>
-				<feature name="System of Highscore">
+				<feature name="System of score">
 					<description>
-						Used for showing his score to the player, and 
-						compare his score to the score of others
+						Used for showing his score to the player .
 					</description>
 				</feature>
 				<and mandatory="true" name="Graphics">
@@ -81,13 +80,19 @@
 					<feature mandatory="true" name="2D"/>
 					<feature mandatory="true" name="3D"/>
 				</alt>
-				<or mandatory="true" name="Sound">
+				<or name="Sound">
 					<description>
 						What kind of sound are we going to use ?
 					</description>
 					<feature mandatory="true" name="Music"/>
 					<feature mandatory="true" name="Midi Format"/>
 				</or>
+				<and mandatory="true" name="Entities">
+					<feature mandatory="true" name="Creatures"/>
+					<feature name="Objects"/>
+				</and>
+				<feature mandatory="true" name="Collisions"/>
+				<feature mandatory="true" name="Mapping"/>
 			</and>
 		</struct>
 		<constraints/>
